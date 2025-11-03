@@ -4,6 +4,7 @@ Team Contributions Report:
 tests test_player.py. Reviewed teammate PRs and managed overall branch coordination.
 
 - Jacob Kang Implemented the Ghost feature ghost.py, created test file and tested using test_ghost.py. 
+Implemented the item feature item.py, created test file and tested using test_item.py. 
 Identified bug in ghost.py and fixed it. Reviewed teammate PRs.
 
 Accidentally commented the code:
