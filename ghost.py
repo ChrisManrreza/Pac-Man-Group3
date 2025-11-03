@@ -3,6 +3,7 @@ import random
 
 
 class Ghost:
+    # fixed a bug
     def __init__(self, x, y, color):
         self.x = x
         self.y = y
