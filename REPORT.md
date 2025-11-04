@@ -3,6 +3,8 @@ Team Contributions Report:
 - Chris Manrreza (Leader) Implemented the Player feature player.py
 tests test_player.py. Reviewed teammate PRs and managed overall branch coordination.
 
+- Nihar Chegireddy Implemented the Game_Board feature gameboard.py tests test_gameboard.py. 
+
 - Jacob Kang Implemented the Ghost feature ghost.py, created test file and tested using test_ghost.py. 
 Implemented the item feature item.py, created test file and tested using test_item.py. 
 Identified bug in ghost.py and fixed it. Reviewed teammate PRs.
@@ -26,7 +28,5 @@ test_ghost.py::test_ghost_move_without_collision PASSED
 test_ghost.py::test_ghost_collision_with_wall PASSED
 test_ghost.py::test_ghost_scared_state PASSED
 test_ghost.py::test_ghost_draw PASSED
-
-- Nihar Chegireddy
 
 - Lokesh NOTHING
