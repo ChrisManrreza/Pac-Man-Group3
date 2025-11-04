@@ -5,3 +5,5 @@ tests test_player.py. Reviewed teammate PRs and managed overall branch coordinat
 
 - Jacob Kang Implemented the Ghost feature ghost.py
 tests test_ghost.py. 
+
+- Nihar Chegireddy Implemented the Game_Board feature gameboard.py tests test_gameboard.py. 
