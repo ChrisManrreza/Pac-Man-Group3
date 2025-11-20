@@ -1,6 +1,6 @@
 import pygame
 import pytest
-from gameboard import GameBoard  # adjust if your file name differs
+from game_board import GameBoard  # adjust if your file name differs
 
 
 @pytest.fixture(scope="module", autouse=True)
