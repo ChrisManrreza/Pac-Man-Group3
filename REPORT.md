@@ -36,3 +36,8 @@ PART II:
 Rename Components and Implement Updates: Christopher Manrreza
 The player entity was fully renamed to Pacman early in the project.
 All files and code references were updated. No instances of "player" remain in the codebase. Changes were merged into main via reviewed pull request.
+
+Secure Sensitive Information: Christopher Manrreza
+Successfully removed the accidentally committed .env file:
+- Added .env and *.env to .gitignore
+- Permanently erased it from all commits using
