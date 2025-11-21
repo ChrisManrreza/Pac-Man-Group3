@@ -1,19 +1,19 @@
 import pygame
 import pytest
-from gameboard import GameBoard  # adjust if your file name differs
+from game_board import GameBoard  # adjust if your file name differs
 
 
 @pytest.fixture(scope="module", autouse=True)
-
-#Initialize and quit pygame for all tests.
+# Initialize and quit pygame for all tests.
 def setup_pygame():
     pygame.init()
     yield
     pygame.quit()
 
-#Ensure the GameBoard initializes with expected elements
+
+# Ensure the GameBoard initializes with expected elements
 def test_setup_maze_creates_walls_and_pellets():
-    
+
     board = GameBoard()
 
     # Basic sanity checks

@@ -40,4 +40,8 @@ All files and code references were updated. No instances of "player" remain in t
 Secure Sensitive Information: Christopher Manrreza
 Successfully removed the accidentally committed .env file:
 - Added .env and *.env to .gitignore
-- Permanently erased it from all commits using
+- Permanently erased it from all commits using git filter-branch
+
+Implement a GitHub Actions CI/CD Pipeline: Jacob Kang
+Created .github/workflows/ci.yml with automated testing pipeline.
+Configured CI to run on pushes and pull requests to main branch, including Black formatting checks, Flake8 linting, and Pytest with coverage reporting. Fixed formatting issues and import errors to ensure all tests pass.

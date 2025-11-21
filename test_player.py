@@ -54,14 +54,12 @@ def test_player_wall_collision(player, walls):
     assert player.x == 190  # Should not move through obstacle
 
 
-
 def test_player_movement_with_obstacles(player, walls):
     # Step 1: Move player towards an obstacle (left wall)
     player.x = 25
     player.y = 100
     player.move("left", walls)
     assert player.x == 25  # Should not move through the left wall
-
 
     # Step 2: Move player towards an obstacle (small obstacle at (200, 200))
     player.x = 190
