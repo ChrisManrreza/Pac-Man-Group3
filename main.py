@@ -24,12 +24,19 @@ clock = pygame.time.Clock()
 # Create game objects
 game_board = GameBoard()
 player = Player(WINDOW_WIDTH // 2, WINDOW_HEIGHT // 2)
+
+blinky = Ghost(100, 100, GHOST_COLORS[0]),
+pinky =     Ghost(WINDOW_WIDTH - 100, 100, GHOST_COLORS[1]),
+inky =    Ghost(100, WINDOW_HEIGHT - 100, GHOST_COLORS[2]),
+clyde =     Ghost(WINDOW_WIDTH - 100, WINDOW_HEIGHT - 100, GHOST_COLORS[3]),
+
 ghosts = [
-    Ghost(100, 100, GHOST_COLORS[0]),
-    Ghost(WINDOW_WIDTH - 100, 100, GHOST_COLORS[1]),
-    Ghost(100, WINDOW_HEIGHT - 100, GHOST_COLORS[2]),
-    Ghost(WINDOW_WIDTH - 100, WINDOW_HEIGHT - 100, GHOST_COLORS[3]),
+    blinky,
+    pinky,
+    inky,
+    clyde,
 ]
+
 score = 0
 game_over = False
 
