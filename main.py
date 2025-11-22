@@ -25,10 +25,10 @@ clock = pygame.time.Clock()
 game_board = GameBoard()
 player = Player(WINDOW_WIDTH // 2, WINDOW_HEIGHT // 2)
 
-blinky = Ghost(100, 100, GHOST_COLORS[0]),
-pinky =     Ghost(WINDOW_WIDTH - 100, 100, GHOST_COLORS[1]),
-inky =    Ghost(100, WINDOW_HEIGHT - 100, GHOST_COLORS[2]),
-clyde =     Ghost(WINDOW_WIDTH - 100, WINDOW_HEIGHT - 100, GHOST_COLORS[3]),
+blinky = Ghost(100, 100, GHOST_COLORS[0])
+pinky = Ghost(WINDOW_WIDTH - 100, 100, GHOST_COLORS[1])
+inky = Ghost(100, WINDOW_HEIGHT - 100, GHOST_COLORS[2])
+clyde = Ghost(WINDOW_WIDTH - 100, WINDOW_HEIGHT - 100, GHOST_COLORS[3])
 
 ghosts = [
     blinky,
