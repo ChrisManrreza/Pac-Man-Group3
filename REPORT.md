@@ -2,12 +2,15 @@ Team Contributions Report:
 
 PART I:
 - Chris Manrreza (Leader) 
+
 Implemented the Player feature player.py and tests test_player.py. Reviewed teammate PRs and managed overall branch coordination.
 
 - Nihar Chegireddy 
+
 Implemented the Game_Board feature gameboard.py tests test_gameboard.py.
 
 - Jacob Kang 
+
 Implemented the Ghost feature ghost.py, created test file and tested using test_ghost.py.
 Implemented the item feature item.py, created test file and tested using test_item.py.
 Identified bug in ghost.py and fixed it. Reviewed teammate PRs.
@@ -33,11 +36,13 @@ test_ghost.py::test_ghost_scared_state PASSED
 test_ghost.py::test_ghost_draw PASSED
 
 - Lokesh 
+
 NOTHING
 
 
 PART II:
 - Christopher Manrreza
+
 Rename Components and Implement Updates:
 The player entity was fully renamed to Pacman early in the project.
 All files and code references were updated. No instances of "player" remain in the codebase. Changes were merged into main via reviewed pull request.
@@ -48,10 +53,12 @@ Added .env and *.env to .gitignore
 Permanently erased it from all commits using git filter-branch
 
 - Jacob Kang:
+
 Implement a GitHub Actions CI/CD Pipeline:
 Created .github/workflows/ci.yml with automated testing pipeline.
 Configured CI to run on pushes and pull requests to main branch, including Black formatting checks, Flake8 linting, and Pytest with coverage reporting. Fixed formatting issues and import errors to ensure all tests pass.
 
 - Nihar Chegireddy:
+
 Revised the Report document to improve clarity and readability
 Renamed Ghost variables to enhance clarity in the code
